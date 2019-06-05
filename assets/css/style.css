@@ -1,0 +1,95 @@
+/**{
+    color: whitesmoke;
+}*/
+
+body{
+    background-image: url("../images/prism.png")
+}
+
+img{
+    float: left;
+    margin: 20px;
+}
+
+header{
+    font-size: 30px;
+}
+
+nav{
+    background-color: #e3e1df;
+    min-height: 40px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+nav div{
+    color: black;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    border-width: 2px;
+}
+
+section{
+    height: 30em;
+    width: 60em;
+    background-color: #e3e1df;
+    margin: auto;
+    padding: 20px;
+}
+
+table{
+    position: relative;
+    left: 108px;
+}
+
+footer{
+    background-color: #7d7d7d;
+    min-height: 10px;
+    padding: 25px;
+    margin-top: 20px;
+    border-top: 3px solid #FE0267;
+    text-align: center;
+}
+
+.nav-right{
+    float: right;
+    padding: 10px;
+    position: relative;
+    right: 230px;
+}
+
+.active{
+    border-bottom: 2px solid #FE0267;
+}
+
+.input{
+    width: 68em;
+    margin: 0.5%;
+}
+
+#border{
+    border-left: 1px solid black;
+    border-right:  1px solid black;
+}
+
+#me{
+    font-size: 20px;
+    background-color: #FE0267;
+    padding: 34px;
+    position: relative;
+    top: 9px;
+    left: 238px;
+}
+
+#contact-header{
+    color: #FE0267;
+}
+
+
