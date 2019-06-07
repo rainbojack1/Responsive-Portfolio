@@ -20,6 +20,7 @@ nav{
     min-height: 40px;
     padding: 25px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 nav div{
@@ -92,4 +93,32 @@ footer{
     color: #FE0267;
 }
 
+@media only screen and (min-width: 1200px){
+    section{
+        max-width: 1140px;
+    }
+}
 
+@media only screen and (min-width: 980px){
+    section{
+        max-width: 931px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    section{
+        max-width: 729px;
+    }
+}
+
+@media only screen and (min-width: 640px){
+    section{
+        max-width: 608px;
+    }
+}
+
+@media only screen and (min-width: 576px){
+    section{
+        max-width: 540px;
+    }
+}
