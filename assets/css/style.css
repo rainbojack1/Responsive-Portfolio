@@ -60,12 +60,8 @@ footer{
 }
 
 .nav-right{
-    float: right;
     padding: 10px;
-    position: relative;
-    right: 10%;
-    top: 20px;
-    display: inline-flex;
+
 }
 
 .active{
@@ -94,11 +90,15 @@ footer{
 #contact-header{
     color: #FE0267;
 }
+#nav-items{
+    display: inline-flex;
+    float: right;
+    position: relative;
+    right: 10%;
+    top: 20px;
+}
 
 @media only screen and (max-width: 1200px){
-    /*section{
-        width: 1140px;
-    }*/
     footer{
         margin-top: 4%;
     }
@@ -120,13 +120,28 @@ footer{
 }
 
 @media only screen and (max-width: 640px){
-    /*section{
-        max-width: 608px;
-    }*/
+    nav{
+        height: 125px;
+    }
+
+    #me{
+        padding: 20px 20px 20px 39%;
+        width: 100%;
+        left: auto;
+    }
+
+    #nav-items{
+        width: 100%;
+        padding: 0px;
+        right: auto;
+        left: 30%;
+        top: 12px;
+    }
 }
 
 @media only screen and (max-width: 576px){
-    /*section{
-        max-width: 540px;
-    }*/
+    #border{
+        padding: 10px 20px 10px 20px;
+    }
+
 }
