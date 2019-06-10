@@ -47,7 +47,11 @@ section{
 
 table{
     position: relative;
-    left: 108px;
+    margin: auto;
+}
+
+form{
+    padding: inherit;
 }
 
 footer{
@@ -69,8 +73,8 @@ footer{
 }
 
 .input{
-    width: 68em;
-    margin: 0.5%;
+    width: 100%;
+    margin: 1%;
 }
 
 #border{
@@ -108,6 +112,19 @@ footer{
     footer{
         margin-top: 5%;
     }
+
+    /*!* Force table to not be like tables anymore *!
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    td {
+        !* Behave  like a "row" *!
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }*/
 }
 
 @media only screen and (max-width: 768px){
@@ -115,7 +132,11 @@ footer{
         height: 100%;
     }
     footer{
-        margin-top: 6%;
+        margin-top: 7%;
+    }
+
+    form br{
+        line-height: 1.5;
     }
 }
 
