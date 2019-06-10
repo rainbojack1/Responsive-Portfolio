@@ -18,7 +18,7 @@ header{
 nav{
     background-color: #e3e1df;
     min-height: 40px;
-    padding: 25px;
+    /*padding: 25px;*/
     margin-bottom: 20px;
     width: 100%;
 }
@@ -39,7 +39,7 @@ hr{
 
 section{
     height: 30em;
-    width: 60em;
+    width: 75%;
     background-color: #e3e1df;
     margin: auto;
     padding: 20px;
@@ -54,7 +54,7 @@ footer{
     background-color: #7d7d7d;
     min-height: 10px;
     padding: 25px;
-    margin-top: 20px;
+    margin-top: 3%;
     border-top: 3px solid #FE0267;
     text-align: center;
 }
@@ -63,7 +63,9 @@ footer{
     float: right;
     padding: 10px;
     position: relative;
-    right: 230px;
+    right: 10%;
+    top: 20px;
+    display: inline-flex;
 }
 
 .active{
@@ -85,40 +87,46 @@ footer{
     background-color: #FE0267;
     padding: 34px;
     position: relative;
-    top: 9px;
-    left: 238px;
+    left: 11%;
+    display: inline-flex;
 }
 
 #contact-header{
     color: #FE0267;
 }
 
-@media only screen and (min-width: 1200px){
-    section{
-        max-width: 1140px;
+@media only screen and (max-width: 1200px){
+    /*section{
+        width: 1140px;
+    }*/
+    footer{
+        margin-top: 4%;
     }
 }
 
-@media only screen and (min-width: 980px){
-    section{
-        max-width: 931px;
+@media only screen and (max-width: 980px){
+    footer{
+        margin-top: 5%;
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
     section{
-        max-width: 729px;
+        height: 100%;
+    }
+    footer{
+        margin-top: 6%;
     }
 }
 
-@media only screen and (min-width: 640px){
-    section{
+@media only screen and (max-width: 640px){
+    /*section{
         max-width: 608px;
-    }
+    }*/
 }
 
-@media only screen and (min-width: 576px){
-    section{
+@media only screen and (max-width: 576px){
+    /*section{
         max-width: 540px;
-    }
+    }*/
 }
