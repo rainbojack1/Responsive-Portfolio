@@ -72,6 +72,17 @@ footer{
     border-bottom: 2px solid #FE0267;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+  /* .flex-.item {
+    flex-shrink: 2
+  } */
+
 .input{
     width: 100%;
     margin: 1%;
@@ -109,22 +120,17 @@ footer{
 }
 
 @media only screen and (max-width: 980px){
+    section{
+        height: 100%;
+    }
+    
     footer{
         margin-top: 5%;
     }
 
-    /*!* Force table to not be like tables anymore *!
-    table, thead, tbody, th, td, tr {
-        display: block;
-    }
-
-    td {
-        !* Behave  like a "row" *!
-        border: none;
-        border-bottom: 1px solid #eee;
-        position: relative;
-        padding-left: 50%;
-    }*/
+    .flex-.item {
+        flex-shrink: 2
+      }
 }
 
 @media only screen and (max-width: 768px){
